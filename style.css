@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/* start main section */
+main{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../imgs/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0);
+    opacity: 0.5;
+    display: block;
+    top: 0;
+    left: 0;
+}
+.fa-scissors{
+    font-size: 5rem;
+    z-index: 1;
+    color: rgb(185, 186, 186);
+    transform: rotate(-90deg);
+}
+main>h1,main>button{
+z-index: 1;
+}
+main>h1{
+    color: white;
+    font-size:3rem;
+    width: 70%;
+    text-align: center;
+}
+main>button{
+    background-color: #ff5722;
+    padding: .7rem 2rem;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* end main section */
+.about-us{
+    margin: 5rem 10rem;
+}
+/* about us section */
+}
+.about-us-section{
+    
+margin: 50px;
+
+}
+.about-img{
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end about us section */
